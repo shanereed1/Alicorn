@@ -1,0 +1,5 @@
+### Project Alicorn- Adding a Resource
+
+## created 02/24/2017
+
+This is the 'add a resource' function for project Alicorn. It has a layout for both mobile and desktop. 

@@ -1,0 +1,170 @@
+/*font-family: 'Open Sans', sans-serif;*/
+
+*, *:after, *:before{
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+body {
+font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    position: relative;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+h2 {
+  background: #9D3968;
+  color: white;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0 0 15px;
+}
+
+.support_text {
+  color: darkgray;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+label {
+  color: rgb(60,60,60);
+  padding: 10px;
+  margin: 0 10px;
+}
+
+
+input {
+  width: 95%;
+  border: 1px solid #708090;
+  border-radius: 5px;
+  padding: 7px;
+  margin: 5px 10px 15px;
+  box-shadow:inset 1px 1px 3px 1px #DCDCDC;
+}
+
+#topic_list {
+  width: 95%;
+  height: 30px;
+  border: 1px solid #708090;
+  border-radius: 5px;
+  padding: 7px;
+  margin: 5px 10px 15px;
+  box-shadow:inset 1px 1px 3px 1px #DCDCDC;
+}
+
+textarea {
+  width: 95%;
+  border: 1px solid #708090;
+  border-radius: 5px;
+  margin: 10px 10px 5px;
+  box-shadow:inset 1px 1px 3px 1px #DCDCDC;
+}
+
+p{
+  color: rgb(60,60,60);
+  display: inline;
+  margin: 0 2px 0 20px ;
+}
+
+.button {
+  width: 85%;
+  font-size: 18px;
+  color: white;
+  background-color: #00A3B4;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 5px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: none;
+}
+
+.checkbox {
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  margin: 10px 0;
+  box-shadow: none;
+
+}
+
+/************ Tooltip Styles *************/
+
+.formsection {
+position: relative;
+}
+
+.tooltip_icon {
+  width: 20px;
+  height: 20px;
+  margin: -3px 5px 1px;
+}
+
+
+.tooltip {
+  position: absolute;
+  display: inline-block;
+  right: 15px;
+}
+
+.tooltip .tooltiptext {
+  color: color: rgb(60,60,60);
+  font-size: 14px;
+  line-height: 16px;
+  visibility: hidden;
+  width: 250px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border: 1px solid #708090;
+  border-radius: 5px;
+  padding: 10px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  right: 35px;
+  bottom: -9px; 
+
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+/************ Media Queries *************/
+
+
+
+@media (min-width: 650px){
+
+  .container {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .col_1 {
+    width: 50%;
+    float: left;
+  }
+
+  .col_2 {
+    width: 50%;
+    float: right;
+  }
+
+}
+
+
+

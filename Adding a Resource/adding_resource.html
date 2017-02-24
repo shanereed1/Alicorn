@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+		<title>Adding a Resource</title>
+
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700" rel="stylesheet">
+
+	</head>
+
+	<body>
+
+	<h2>Adding a Resource</h2>
+
+	<div class="container">
+
+		<form>
+
+			<p class="support_text">Required&#42;</p>
+
+			<div class="col_1">
+
+				  <label>Link&#42;</label>
+				  <input>
+
+
+				  <label>Title&#42;</label>
+				  <input>
+
+			  <div class="formsection">
+
+				  <label>Topic&#42;</label>
+
+				  <div class="tooltip">
+					<span class="tooltiptext"> When choosing a topic, place your resource in a topic that best fits the theme of what you're resource.</span>
+					<img src="img/tooltip.png" class="tooltip_icon">
+				</div>
+
+				   <select id = "topic_list">
+				  <option value = "">Select Topic</option>
+		               <option value = "accessibility">Accessibility</option>
+		               <option value = "business">Business of UX</option>
+		               <option value = "communicating">Communicating Design</option>
+		               <option value = "content">Content Strategy</option>
+		               <option value = "copywriting">Copywriting</option>
+		               <option value = "critiquing">Critiquing</option>
+		               <option value = "data">Data Analytics</option>
+		               <option value = "process">Design Process</option>
+		               <option value = "studio">Design Studio</option>
+		               <option value = "social">Designing for Social</option>
+		               <option value = "">Development Methods</option>
+		               <option value = "development">Front-End Development</option>
+		               <option value = "fed">Functional Editing &#38; Curation</option>
+		               <option value = "IA">Information Architecture</option>
+		               <option value = "id">Information Design</option>
+		               <option value = "ixd">Interaction Design</option>
+		               <option value = "ux">Intro to User Experience</option>
+		               <option value = "leadership">Leadership</option>
+		               <option value = "mobile">Mobile Design</option>
+		               <option value = "presetning">Presenting</option>
+		               <option value = "prototyping">Prototyping</option>
+		               <option value = "service">Service Design</option>
+		               <option value = "sketching">Sketching</option>
+		               <option value = "storyboarding">Storyboarding</option>
+		               <option value = "storytelling">Storytelling</option>
+		               <option value = "research">User Research Practices</option>
+		               <option value = "scenarios">User Scenarios</option>
+		               <option value = "visual">Visual Design</option>
+		             </select>
+
+			  </div> <!-- .formsection -->
+
+			  <div class="formsection">
+
+				  <label>Tags</label>
+
+				  <div class="tooltip">
+					<span class="tooltiptext"> Seperate tags with commas and keep tags short, simple, and relative to your resource. </span>
+					<img src="img/tooltip.png" class="tooltip_icon">
+					</div> <!-- .tooltip -->
+				  <input>
+
+			  </div> <!-- .formsection -->
+
+			</div> <!-- col_1 -->
+
+			<div class="col_2">
+
+			  <div class="formsection">
+
+					<label>Summary</label>
+
+					<div class="tooltip">
+						<span class="tooltiptext"> When writing a summary, give a brief overview of what the resource is about how it helped you. </span>
+						<img src="img/tooltip.png" class="tooltip_icon">
+					</div> <!-- .tooltip -->
+
+					<textarea rows="10"></textarea>
+
+			  </div> <!-- .formsection -->
+
+			  <div class="formsection">
+			  
+				  <p>Notifications:</p>
+				   <input type="checkbox" class="checkbox">
+
+				  <div class="tooltip">
+						<span class="tooltiptext">You'll receive notifications through your email on any disscussion or upvotes taking place on the resource you're posting. </span>
+						<img src="img/tooltip.png" class="tooltip_icon">
+				   </div>
+
+				   <input type="button" value="Post Resource" class="button">
+
+			   </div> <!-- .formsection -->
+
+				</div> <!-- col_2 -->
+
+			</form>
+	</div> <!-- .container -->
+
+	</body>
+</html>
