@@ -15,21 +15,29 @@
 
 	<body>
 
-	<h2>Adding a Resource</h2>
+	<h1>Adding a Resource</h1>
 
 	<div class="container">
 
 		<form>
 
-			<p class="support_text">Required&#42;</p>
+			<p class="required_microcopy">Required&#42;</p>
 
 			<div class="col_1">
 
 				  <label>Link&#42;</label>
+				  <p class="link_microcopy"> <em>Links should be direct links to available online resources.</em></p>
 				  <input>
+				  
 
 
 				  <label>Title&#42;</label>
+
+				  <div class="tooltip">
+					<span class="tooltiptext"> Use the existing title of the resource you linked or write your own. The title you use will be visible and will act as a direct link to the resource.</span>
+					<img src="img/tooltip.png" class="tooltip_icon">
+				</div>
+
 				  <input>
 
 			  <div class="formsection">
@@ -37,7 +45,9 @@
 				  <label>Topic&#42;</label>
 
 				  <div class="tooltip">
-					<span class="tooltiptext"> When choosing a topic, place your resource in a topic that best fits the theme of what you're resource.</span>
+					<span class="tooltiptext"> Choose the topic that best fits the main theme of the resource.<br>
+					<br>
+					If you find none of the available topics are a good fit for your resource, place it in the “User Experience” topic. If you save a resource with the wrong topic, you can change it from your profile page. </span>
 					<img src="img/tooltip.png" class="tooltip_icon">
 				</div>
 
@@ -59,7 +69,7 @@
 		               <option value = "IA">Information Architecture</option>
 		               <option value = "id">Information Design</option>
 		               <option value = "ixd">Interaction Design</option>
-		               <option value = "ux">Intro to User Experience</option>
+		               <option value = "introUX">Intro to User Experience</option>
 		               <option value = "leadership">Leadership</option>
 		               <option value = "mobile">Mobile Design</option>
 		               <option value = "presetning">Presenting</option>
@@ -68,6 +78,7 @@
 		               <option value = "sketching">Sketching</option>
 		               <option value = "storyboarding">Storyboarding</option>
 		               <option value = "storytelling">Storytelling</option>
+		               <option value = "ux">User Experience</option>
 		               <option value = "research">User Research Practices</option>
 		               <option value = "scenarios">User Scenarios</option>
 		               <option value = "visual">Visual Design</option>
@@ -80,7 +91,11 @@
 				  <label>Tags</label>
 
 				  <div class="tooltip">
-					<span class="tooltiptext"> Seperate tags with commas and keep tags short, simple, and relative to your resource. </span>
+					<span class="tooltiptext"> Tags are for your own personal use to organize resources you post. Write them however you feel comfortable because you’re the only one who can see them.<br>
+					<br>
+					There’s no limit to how many tags you add to a resource. When writing tags make sure to separate tags with a comma. If you need to view or edit your tags at anytime you can do this by referring to your profile or the resource itself.<br>
+					<br>
+					Writing Example: (Sketching, UX, data analytics, user_research, author's.name) </span>
 					<img src="img/tooltip.png" class="tooltip_icon">
 					</div> <!-- .tooltip -->
 				  <input>
@@ -96,7 +111,10 @@
 					<label>Summary</label>
 
 					<div class="tooltip">
-						<span class="tooltiptext"> When writing a summary, give a brief overview of what the resource is about how it helped you. </span>
+						<span class="tooltiptext"> Use this field to summarize or describe the resource. Talk about how the resource helped you learn something new or answered a question.Write as much or little as you need to communicate your thoughts clearly.<br> <br>
+						To revise after posting a resource, visit your profile, find the resource,  and click on “edit”.<br>
+						<br>
+						For guidance, you’ll find examples of good summaries <a href="#">here.</a> </span>
 						<img src="img/tooltip.png" class="tooltip_icon">
 					</div> <!-- .tooltip -->
 
@@ -106,11 +124,13 @@
 
 			  <div class="formsection">
 			  
-				  <p>Notifications:</p>
-				   <input type="checkbox" class="checkbox">
+				  <label>Notifications:</label>
+				   <input type="checkbox" class="checkbox" checked="checked">
 
 				  <div class="tooltip">
-						<span class="tooltiptext">You'll receive notifications through your email on any disscussion or upvotes taking place on the resource you're posting. </span>
+						<span class="tooltiptext">Notifications tell you when another user upvotes or comments on a resource you’ve posted. <br>
+						<br>
+						View notifications in the notifications tab on the homepage. Notification settings for each post can be edited on the resource’s page; once there, find and click “edit” and uncheck “notifications”.</span>
 						<img src="img/tooltip.png" class="tooltip_icon">
 				   </div>
 
